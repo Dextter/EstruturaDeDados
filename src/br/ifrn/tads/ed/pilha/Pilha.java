@@ -44,8 +44,7 @@ public class Pilha {
         if (isEmpty())
             throw new ExceptionPilhaVazia("Pilha vazia!");
         elemento = P[topo];
-        P[topo] = null; 
-        topo--;
+        P[topo--] = null; 
         return elemento;
         }
     

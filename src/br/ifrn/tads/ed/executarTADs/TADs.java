@@ -17,7 +17,7 @@ public class TADs {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Pilha stack = new Pilha();
+        Pilha p = new Pilha();
         
         
     }
